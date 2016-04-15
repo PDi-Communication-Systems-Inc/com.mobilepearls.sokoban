@@ -10,7 +10,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="onButtonClicked"
-        android:text="Microban" />
+        android:text="@string/level_easy" />
 
     <Button
         android:id="@+id/levelsOriginalButton"
@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/levelsMicrobanEasyButton"
         android:onClick="onButtonClicked"
-        android:text="Original" />
+        android:text="@string/level_original" />
 
     <Button
         android:id="@+id/levelsMasSasquatchButton"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/levelsOriginalButton"
         android:onClick="onButtonClicked"
-        android:text="Mas Sasquatch" />
+        android:text="@string/level_masSasquatch" />
 
     <Button
         android:id="@+id/levelsSasIIIButton"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/levelsMasSasquatchButton"
         android:onClick="onButtonClicked"
-        android:text="Sasquatch III" />
+        android:text="@string/level_SasIIIButton" />
 
     <Button
         android:id="@+id/levelsSasIVButton"
@@ -42,6 +42,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/levelsSasIIIButton"
         android:onClick="onButtonClicked"
-        android:text="Sasquatch IV" />
+        android:text="@string/level_SasIVButton" />
 
 </RelativeLayout>
